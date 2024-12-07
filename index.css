@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('content/achtergrond.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+   
+}
+
+.kolom1, .kolom2 {
+    display: flex;
+    justify-content: center;
+}
+#character-svg{
+    height: 40%;
+    width: 40%;
+}
+.kolom2 {
+    margin-top: -5%;
+}
+
+h1, h2 {
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.kolom3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 10%;
+}
+
+#broek-opties, #haar-opties {
+    display: none;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
